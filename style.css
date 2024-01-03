@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+   width: 10px;
+   height: 10px;
+   position: absolute;
+   border-radius: 50%;
+   z-index: 9999;
+   background-color: white;
+}
+.box{
+    width: fit-content;
+    overflow: hidden;
+     /* background-color: red;   */
+}
+.hideBox{
+    transform: translateY(150px);
+}
+#main {
+    width: 100vw;
+    background-color: black;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+#hero a {
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    font-size: 16px;
+    font-family: "General Sans";
+}
+
+#hero h4 {
+    color: white;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#textarea {
+    margin-top: 80px;
+}
+
+#textarea h1 {
+    font-family: "General Sans Medium";
+    color: white;
+    font-size: 11vw;
+    opacity: .6;
+    margin-left: 25px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+#textarea2 {
+    width: fit-content;
+    /* background-color: red; */
+}
+
+#textarea2 h1 {
+    color: white;
+    margin-left: 16vw;
+}
+
+#textarea2 h5 {
+    color: white;
+    text-align: right;
+}
+
+#textarea3 {
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+#textarea3 h5 {
+    color: white;
+    font-size: 1.2vw;
+    text-align: right;
+}
+
+.circle i {
+    color: white;
+    margin-right: 30px;
+}
+
+#herofooter {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* #herofooter #iconset .circle{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+} */
+#herofooter #iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#second {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+
+.headingtext {
+    width: 100vw;
+    border-top: 1px solid #888;
+    /* border-bottom: 1px solid #888; */
+    padding: 4vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.headingtext h1 {
+    text-transform: uppercase;
+    font-size: 5vw;
+    opacity: .7;
+}
+
+.headingtext img {
+    /* display: none; */
+    opacity: 0;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+}
+
+.lasttext {
+    border-bottom: 1px solid #888;
+}
+
+#about {
+    width: 100vw;
+    background-color: black;
+    /* height: 100vh; */
+    color: white;
+    display: flex;
+    align-items: center;
+    /* text-align: justify;
+   justify-content: space-evenly; */
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    gap: 50px;
+}
+
+#textabout {
+    width: 25rem;
+    /* background-color: red; */
+}
+
+#textabout h5 {
+    margin-bottom: 10px;
+}
+
+#textabout p {
+    margin-bottom: 30px;
+    line-height: 1.3;
+    font-size: 1.3vw;
+}
+
+#about img {
+    width: 200px;
+}
+
+#textabout a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    /* margin-top: 10px; */
+    border-radius: 40vw;
+}
+
+#subscribe {
+    width: 100vw;
+    background-color: black;
+    color: #fff;
+    padding: 40px 30px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#subscribe h5 {
+    opacity: .7;
+    padding-bottom: 5px;
+}
+
+#subscribe a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#footer #footerleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#footer #footerright {
+    display: flex;
+    gap: 50px;
+}
+
+#footerright a {
+    text-decoration: none;
+    color: white;
+}
